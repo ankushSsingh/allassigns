@@ -1,0 +1,12 @@
+mesha : 4 ashwini 7 4 bharani 20 1 krittika 6
+vrishabha : 3 krittika 6 4 rohini 10 2 mrigshira 7
+mithuna : 2 mrigshira 7 4 ardra 18 3 punarvasu 16
+karka : 1 punarvasu 16 4 pushya 19 4 ashlesha 17
+simha : 4 magha 7 4 purva-phalguni 20 1 uttara-phalguni 6
+kanya : 3 uttara-phalguni 6 4 hasta 10 2 chitra 7
+tula : 2 chitra 7 4 svati 18 3 vishakha 16
+vrischika : 1 vishakha 16 4 anuradha 19 4 jyeshtha 17
+dhanu : 4 moola 7 4 purva-ashadha 20 1 uttara-ashadha 6
+makar : 3 uttara-ashadha 6 4 shravana 10 2 dhanishta 7
+kumbha : 2 dhanishta 7 4 shatbhisha 18 3 purva-bhadrapada 16
+meena : 1 purva-bhadrapada 16 4 uttara-bhadrapada 19 4 revati 17

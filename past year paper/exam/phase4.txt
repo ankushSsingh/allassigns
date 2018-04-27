@@ -1,0 +1,12 @@
+1 mesha 114
+2 vrishabha 72
+3 mithuna 134
+4 karka 160
+5 simha 114
+6 kanya 72
+7 tula 134
+8 vrischika 160
+9 dhanu 114
+10 makar 72
+11 kumbha 134
+12 meena 160
