@@ -1,0 +1,110 @@
+body{
+	border-top: 40px  #555 solid; 
+	margin: 0 0 0 0;
+	color: #000;
+}
+	
+#page{
+	width:900px;
+	text-align: left;
+	margin: 40px auto 10px auto;
+}
+
+#name p{	
+	float: right;
+	margin: 0;
+	padding: 16px 0 0 0;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+a{
+	font-size: 19px;
+	color: #075f78;
+
+}
+
+#nav {
+    float: right;
+    padding: 0 0 0 0;
+}
+#content{
+	width: 780px;
+	text-align: left;
+	padding-left: 10px;
+	float: left;
+}
+
+#nav p{	
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#nav li.home {
+	border: none;
+	list-style: none;
+}
+
+#nav li{
+	display: inline;
+	border-left: 1px #666 solid;
+}
+
+#nav a{
+	font-size: 0.95em;
+	font-weight: bold;
+	color: #075f78;
+	padding: 0 12px;
+}
+
+#nav a:hover{
+	text-decoration:underline;
+}
+
+hr{ 
+	height: 2px;
+	color: #666;
+	background-color:#666;
+	float: left;
+	border: none;
+	width:100%;
+}
+
+#courses {
+	width: 100%;
+	margin: 0 0 2em 0;
+}
+
+#xmldiv {
+	border: solid;
+}
+
+#xmlsch {
+	border: solid;
+}
+
+#courses {
+	margin: 0;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 6px;
+}
+
+#odd {
+	background-color: #ecf6fb;
+	color: #333;
+	text-align: left;
+	font-weight: bold;
+	font-size: 12px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #CFCFCF;
+}
+#even {
+	background-color: #FFF;
+	color: #333;
+	text-align: left;
+	font-weight: bold;
+	font-size: 12px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #CFCFCF;
+}

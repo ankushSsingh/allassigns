@@ -1,0 +1,164 @@
+\documentclass[a4paper, 10pt]{report}
+
+
+\usepackage{lipsum}
+%\usepackage{hyperref}
+\title{CS657: Information Retrieval }
+\author{Ankush Singh {150107}}
+\date{06-02-2018}
+\begin{document}
+\maketitle   
+\begin{center}
+\textbf{\Large Assignment 1}\\
+\end{center}
+\vspace{10pt}
+ In the assignment, I have used Terrier as my tool.
+ In Terrier, the stemmers I have used are : PorterStemmer, WeakPorter and English Snowball.
+\vspace{10pt}\\
+AND queries and OR queries have been separately dealt -each indexed first without stopword removal and then with stopword removal.\\
+The following data has been recorded in tables for each of the 12 cases.\\
+1. Time-taken to generate index\\
+2. Size of the vocabulary.\\
+3. Size of retrieved set of documents.\\
+4. Precision, Recall and F-score of all query groups.\\
+
+Size of corpus = 125586.     Maximum Retrieval Limit=50000\\
+\textbf{Analysis/Comments}
+\begin{itemize}
+\item Porter Stemmer is the fastest stemmer(out of the three) followed by WeakPorter Stemmer and then EnglishSnowball 
+\item WeakPorter Stemmer makes the largest vocabulary during indexing though the sizes are almost comparable for all stemmers.
+\item AND queries were more difficult and had rarer results than OR queries
+\item OR queries suffered in Precision and F-score because of larger retrieval bu t had an astounding recall.
+\item Weak Porter performed best in precision as well as F-score followed by English Snowball which was best in Recall while Porter Stemmer always struggled.
+\item Since F-score is a more accurate measure than precision or recall, Weak Porter Stemmer claims the best stemmer in evaluation though it had a large vocabulary and a slow pace.
+\item Stopword removal had very negligible effect on evaluation measures. Also, it made indexing slow.
+\end{itemize}
+
+
+\begin{table}[ht]
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multicolumn{2}{|c}{} & \multicolumn{3}{|c|}{\bf Stemmer Type}\\
+\hline
+{\bf Query Type} &{\bf Stopword Status}& {\bf Porter} & {\bf WeakPorter} & {\bf EnglishSnowball} \\
+{}&{}&{\bf Stemmer}&{\bf Stemmer} &{\bf Stemmer}\\
+\hline
+AND & Not Removed & 110.306& 113.802& 162.685\\
+%\hline
+AND & Removed & 112.859 &115.889 & 137.858 \\
+%\hline
+OR & Not Removed & 69.44 & 68.05 &90.385 \\
+%\hline
+OR & Removed  & 68.252&95.513 &118.844\\
+\hline
+\end{tabular}
+\caption{Retrieval Statistics : Time-taken to index (in seconds)}
+\label{table:simple}
+\end{table}
+
+\begin{table}[ht]
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multicolumn{2}{|c}{} & \multicolumn{3}{|c|}{\bf Stemmer Type}\\
+\hline
+{\bf Query Type} &{\bf Stopword Status}& {\bf Porter} & {\bf WeakPorter} & {\bf EnglishSnowball} \\
+{}&{}&{\bf Stemmer}&{\bf Stemmer} &{\bf Stemmer}\\
+\hline
+AND & Not Removed &191156 & 207079 & 191930 \\
+%\hline
+AND & Removed & 191156 & 207079  & 191930 \\
+%\hline
+OR & Not Removed & 191156&  207079  & 191930 \\
+%\hline
+OR & Removed  & 191156& 207079  & 191930 \\
+\hline
+\end{tabular}
+\caption{Retrieval Statistics : Size of Vocabulary}
+\label{table:simple}
+\end{table}
+
+\begin{table}[ht]
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multicolumn{2}{|c}{} & \multicolumn{3}{|c|}{\bf Stemmer Type}\\
+\hline
+{\bf Query Type} &{\bf Stopword Status}& {\bf Porter} & {\bf WeakPorter} & {\bf EnglishSnowball} \\
+{}&{}&{\bf Stemmer}&{\bf Stemmer} &{\bf Stemmer}\\
+\hline
+AND & Not Removed &802 & 579 & 800 \\
+%\hline
+AND & Removed & 802 & 579 & 800\\
+%\hline
+OR & Not Removed & 50000&  50000 & 50000\\
+%\hline
+OR & Removed  & 50000 & 50000 & 50000 \\
+\hline
+\end{tabular}
+\caption{Retrieval Statistics :Size of retrieved set}
+\label{table:simple}
+\end{table}
+
+\begin{table}[ht]
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multicolumn{2}{|c}{} & \multicolumn{3}{|c|}{\bf Stemmer Type}\\
+\hline
+{\bf Query Type} &{\bf Stopword Status}& {\bf Porter} & {\bf WeakPorter} & {\bf EnglishSnowball} \\
+{}&{}&{\bf Stemmer}&{\bf Stemmer} &{\bf Stemmer}\\
+\hline
+AND & Not Removed & 0.197& 0.246& 0.198\\
+%\hline
+AND & Removed & 0.197&0.246 &0.198 \\
+%\hline
+OR & Not Removed &0.0303 & 0.029&0.0304 \\
+%\hline
+OR & Removed   &0.0303 & 0.029& 0.0304\\
+\hline
+\end{tabular}
+\caption{Evaluation Measures : Precision}
+\label{table:simple}
+\end{table}
+
+\begin{table}[ht]
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multicolumn{2}{|c}{} & \multicolumn{3}{|c|}{\bf Stemmer Type}\\
+\hline
+{\bf Query Type} &{\bf Stopword Status}& {\bf Porter} & {\bf WeakPorter} & {\bf EnglishSnowball} \\
+{}&{}&{\bf Stemmer}&{\bf Stemmer} &{\bf Stemmer}\\
+\hline
+AND & Not Removed &0.242 & 0.219& 0.244\\
+%\hline
+AND & Removed &0.242 &0.219 & 0.244 \\
+%\hline
+OR & Not Removed &0.9954 &0.9953 & 0.9947\\
+%\hline
+OR & Removed   & 0.9954 & 0.9953& 0.9947\\
+\hline
+\end{tabular}
+\caption{Evaluation Measures : Recall}
+\label{table:simple}
+\end{table}
+
+\begin{table}[ht]
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multicolumn{2}{|c}{} & \multicolumn{3}{|c|}{\bf Stemmer Type}\\
+\hline
+{\bf Query Type} &{\bf Stopword Status}& {\bf Porter} & {\bf WeakPorter} & {\bf EnglishSnowball} \\
+{}&{}&{\bf Stemmer}&{\bf Stemmer} &{\bf Stemmer}\\
+\hline
+AND & Not Removed &0.217 &0.232 & 0.219\\
+%\hline
+AND & Removed &0.217 &0.232 & 0.219\\
+%\hline
+OR & Not Removed &0.05877 &0.057 & 0.05899\\
+%\hline
+OR & Removed   &0.05877 & 0.057 & 0.005899\\
+\hline
+\end{tabular}
+\caption{Evaluation Measures : F-score}
+\label{table:simple}
+\end{table}
+
+\end{document}

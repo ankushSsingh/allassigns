@@ -1,0 +1,451 @@
+USER      PPID   PID   LWP START    SZ     TIME   RSS CMD
+root         0     1     1 17:46  8447 00:00:00  4360 /sbin/init
+root         0     2     2 17:46     0 00:00:00     0 [kthreadd]
+root         2     3     3 17:46     0 00:00:00     0 [ksoftirqd/0]
+root         2     5     5 17:46     0 00:00:00     0 [kworker/0:0H]
+root         2     7     7 17:46     0 00:00:02     0 [rcu_sched]
+root         2     8     8 17:46     0 00:00:00     0 [rcu_bh]
+root         2     9     9 17:46     0 00:00:00     0 [migration/0]
+root         2    10    10 17:46     0 00:00:00     0 [watchdog/0]
+root         2    11    11 17:46     0 00:00:00     0 [watchdog/1]
+root         2    12    12 17:46     0 00:00:00     0 [migration/1]
+root         2    13    13 17:46     0 00:00:00     0 [ksoftirqd/1]
+root         2    15    15 17:46     0 00:00:00     0 [kworker/1:0H]
+root         2    16    16 17:46     0 00:00:00     0 [watchdog/2]
+root         2    17    17 17:46     0 00:00:00     0 [migration/2]
+root         2    18    18 17:46     0 00:00:00     0 [ksoftirqd/2]
+root         2    20    20 17:46     0 00:00:00     0 [kworker/2:0H]
+root         2    21    21 17:46     0 00:00:00     0 [watchdog/3]
+root         2    22    22 17:46     0 00:00:00     0 [migration/3]
+root         2    23    23 17:46     0 00:00:00     0 [ksoftirqd/3]
+root         2    25    25 17:46     0 00:00:00     0 [kworker/3:0H]
+root         2    26    26 17:46     0 00:00:00     0 [kdevtmpfs]
+root         2    27    27 17:46     0 00:00:00     0 [netns]
+root         2    28    28 17:46     0 00:00:00     0 [perf]
+root         2    29    29 17:46     0 00:00:00     0 [khungtaskd]
+root         2    30    30 17:46     0 00:00:00     0 [writeback]
+root         2    31    31 17:46     0 00:00:00     0 [ksmd]
+root         2    32    32 17:46     0 00:00:01     0 [khugepaged]
+root         2    33    33 17:46     0 00:00:00     0 [crypto]
+root         2    34    34 17:46     0 00:00:00     0 [kintegrityd]
+root         2    35    35 17:46     0 00:00:00     0 [bioset]
+root         2    36    36 17:46     0 00:00:00     0 [kblockd]
+root         2    37    37 17:46     0 00:00:00     0 [ata_sff]
+root         2    38    38 17:46     0 00:00:00     0 [md]
+root         2    39    39 17:46     0 00:00:00     0 [devfreq_wq]
+root         2    45    45 17:46     0 00:00:00     0 [kswapd0]
+root         2    46    46 17:46     0 00:00:00     0 [vmstat]
+root         2    47    47 17:46     0 00:00:00     0 [fsnotify_mark]
+root         2    48    48 17:46     0 00:00:00     0 [ecryptfs-kthrea]
+root         2    64    64 17:46     0 00:00:00     0 [kthrotld]
+root         2    65    65 17:46     0 00:00:00     0 [acpi_thermal_pm]
+root         2    69    69 17:46     0 00:00:00     0 [bioset]
+root         2    70    70 17:46     0 00:00:00     0 [bioset]
+root         2    71    71 17:46     0 00:00:00     0 [bioset]
+root         2    72    72 17:46     0 00:00:00     0 [bioset]
+root         2    73    73 17:46     0 00:00:00     0 [bioset]
+root         2    74    74 17:46     0 00:00:00     0 [bioset]
+root         2    75    75 17:46     0 00:00:00     0 [bioset]
+root         2    76    76 17:46     0 00:00:00     0 [bioset]
+root         2    80    80 17:46     0 00:00:00     0 [ipv6_addrconf]
+root         2    93    93 17:46     0 00:00:00     0 [deferwq]
+root         2    94    94 17:46     0 00:00:00     0 [charger_manager]
+root         2   146   146 17:46     0 00:00:00     0 [scsi_eh_0]
+root         2   147   147 17:46     0 00:00:00     0 [scsi_tmf_0]
+root         2   148   148 17:46     0 00:00:00     0 [scsi_eh_1]
+root         2   149   149 17:46     0 00:00:00     0 [scsi_tmf_1]
+root         2   150   150 17:46     0 00:00:00     0 [scsi_eh_2]
+root         2   151   151 17:46     0 00:00:00     0 [scsi_tmf_2]
+root         2   154   154 17:46     0 00:00:00     0 [kpsmoused]
+root         2   156   156 17:46     0 00:00:00     0 [bioset]
+root         2   158   158 17:46     0 00:00:00     0 [bioset]
+root         2   172   172 17:46     0 00:00:00     0 [jbd2/sda5-8]
+root         2   173   173 17:46     0 00:00:00     0 [ext4-rsv-conver]
+root         2   221   221 17:46     0 00:00:00     0 [kworker/1:1H]
+root         2   222   222 17:46     0 00:00:00     0 [kworker/2:1H]
+root         1   317   317 17:46  4873 00:00:00   176 upstart-udev-bridge --daemon
+root         1   322   322 17:46 13189 00:00:00  4300 /lib/systemd/systemd-udevd --daemon
+root         2   369   369 17:46     0 00:00:00     0 [irq/280-mei_me]
+root         2   374   374 17:46     0 00:00:00     0 [kworker/3:1H]
+root         2   380   380 17:46     0 00:00:00     0 [kworker/0:1H]
+root         2   391   391 17:46     0 00:00:00     0 [kworker/u9:0]
+root         2   392   392 17:46     0 00:00:00     0 [hci0]
+root         2   393   393 17:46     0 00:00:00     0 [hci0]
+root         2   395   395 17:46     0 00:00:00     0 [kworker/u9:2]
+root         2   461   461 17:46     0 00:00:00     0 [cfg80211]
+root         2   463   463 17:46     0 00:00:00     0 [irq/281-iwlwifi]
+root         2   464   464 17:46     0 00:00:06     0 [irq/51-DELL0782]
+root         2   466   466 17:46     0 00:00:00     0 [kvm-irqfd-clean]
+root         2   472   472 17:46     0 00:00:00     0 [kmemstick]
+root         2   473   473 17:46     0 00:00:01     0 [rtsx_usb_ms_1]
+root         1   536   536 17:46  3819 00:00:00   212 upstart-socket-bridge --daemon
+root         2   634   634 17:46     0 00:00:00     0 [nvidia-modeset]
+root         2   657   657 17:46     0 00:00:00     0 [UVM global queu]
+root         2   658   658 17:46     0 00:00:00     0 [UVM Tools Event]
+root         2   699   699 17:46     0 00:00:00     0 [jbd2/sda6-8]
+root         2   700   700 17:46     0 00:00:00     0 [ext4-rsv-conver]
+root         1   808   808 17:46  3823 00:00:00   208 upstart-file-bridge --daemon
+message+     1   811   811 17:46 10043 00:00:01  3612 dbus-daemon --system --fork
+syslog       1   824   824 17:46 63964 00:00:00  2900 rsyslogd
+syslog       1   824   825 17:46 63964 00:00:00  2900 rsyslogd
+syslog       1   824   826 17:46 63964 00:00:00  2900 rsyslogd
+syslog       1   824   827 17:46 63964 00:00:00  2900 rsyslogd
+root         1   840   840 17:46 83615 00:00:00  9640 /usr/sbin/ModemManager
+root         1   840   887 17:46 83615 00:00:00  9640 /usr/sbin/ModemManager
+root         1   840   889 17:46 83615 00:00:00  9640 /usr/sbin/ModemManager
+root         1   841   841 17:46  4828 00:00:00  3680 /usr/sbin/bluetoothd
+root         1   853   853 17:46 10889 00:00:00  3384 /lib/systemd/systemd-logind
+root         2   861   861 17:46     0 00:00:00     0 [krfcommd]
+avahi        1   881   881 17:46  8091 00:00:01  2900 avahi-daemon: running [ankush-Inspiron-7560.local]
+avahi      881   883   883 17:46  8059 00:00:00   252 avahi-daemon: chroot helper
+root         1   891   891 17:46 89209 00:00:01 11644 NetworkManager
+root         1   891   892 17:46 89209 00:00:00 11644 NetworkManager
+root         1   891   894 17:46 89209 00:00:00 11644 NetworkManager
+root         1   891   895 17:46 89209 00:00:00 11644 NetworkManager
+root         1   897   897 17:46 73987 00:00:00  8664 /usr/lib/policykit-1/polkitd --no-debug
+root         1   897   899 17:46 73987 00:00:00  8664 /usr/lib/policykit-1/polkitd --no-debug
+root         1   897   900 17:46 73987 00:00:00  8664 /usr/lib/policykit-1/polkitd --no-debug
+root         1   905   905 17:46  7660 00:00:00  5408 /sbin/wpa_supplicant -B -P /run/sendsigs.omit.d/wpasupplicant.pid -u -s -O /var/run/wpa_supplicant
+root         1  1003  1003 17:46  5007 00:00:00  2132 /sbin/getty -8 38400 tty4
+root         1  1007  1007 17:46  5007 00:00:00  2096 /sbin/getty -8 38400 tty5
+root         1  1014  1014 17:46  5007 00:00:00  2124 /sbin/getty -8 38400 tty2
+root         1  1015  1015 17:46  5007 00:00:00  2116 /sbin/getty -8 38400 tty3
+root         1  1018  1018 17:46  5007 00:00:00  2152 /sbin/getty -8 38400 tty6
+root         1  1081  1081 17:46 18844 00:00:00  5836 /usr/sbin/cups-browsed
+root         1  1093  1093 17:46  4802 00:00:01  2112 /usr/sbin/irqbalance
+root         1  1104  1104 17:46  5917 00:00:00  2296 cron
+root         1  1111  1111 17:46  1096 00:00:00  1668 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+root         1  1120  1120 17:46 73168 00:00:00  7276 lightdm
+root         1  1120  1172 17:46 73168 00:00:00  7276 lightdm
+root         1  1120  1178 17:46 73168 00:00:00  7276 lightdm
+kernoops     1  1133  1133 17:46  9290 00:00:00  2524 /usr/sbin/kerneloops
+root      1120  1177  1177 17:46 127065 00:03:22 162220 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root         1  1180  1180 17:46 75560 00:00:00  9904 /usr/lib/accountsservice/accounts-daemon
+root         1  1180  1202 17:46 75560 00:00:00  9904 /usr/lib/accountsservice/accounts-daemon
+root         1  1180  1203 17:46 75560 00:00:00  9904 /usr/lib/accountsservice/accounts-daemon
+root         1  1195  1195 17:46  5007 00:00:00  2068 /sbin/getty -8 38400 tty1
+whoopsie     1  1206  1206 17:46 90874 00:00:00  9896 whoopsie
+whoopsie     1  1206  1208 17:46 90874 00:00:00  9896 whoopsie
+whoopsie     1  1206  1209 17:46 90874 00:00:00  9896 whoopsie
+root         2  1218  1218 17:46     0 00:00:28     0 [irq/284-nvidia]
+root         2  1219  1219 17:46     0 00:00:00     0 [nvidia]
+root       891  1260  1260 17:46  2561 00:00:00  5168 /sbin/dhclient -d -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /run/sendsigs.omit.d/network-manager.dhclient-wlan0.pid -lf /var/lib/NetworkManager/dhclient-d8e7d180-7ac9-4c41-98ca-73d7b6246891-wlan0.lease -cf /var/lib/NetworkManager/dhclient-wlan0.conf wlan0
+root         2  1329  1329 17:46     0 00:00:00     0 [kauditd]
+root      1120  1374  1374 17:46 42629 00:00:00  6440 lightdm --session-child 12 19
+root      1120  1374  1793 17:46 42629 00:00:00  6440 lightdm --session-child 12 19
+root         1  1398  1398 17:46 59869 00:00:01  7548 /usr/lib/upower/upowerd
+root         1  1398  1429 17:46 59869 00:00:00  7548 /usr/lib/upower/upowerd
+root         1  1398  1430 17:46 59869 00:00:00  7548 /usr/lib/upower/upowerd
+nobody     891  1488  1488 17:46  8809 00:00:00  3236 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.1.1 --conf-file=/var/run/NetworkManager/dnsmasq.conf --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+rtkit        1  1590  1590 17:46 42232 00:00:00  2528 /usr/lib/rtkit/rtkit-daemon
+rtkit        1  1590  1591 17:46 42232 00:00:00  2528 /usr/lib/rtkit/rtkit-daemon
+rtkit        1  1590  1592 17:46 42232 00:00:00  2528 /usr/lib/rtkit/rtkit-daemon
+colord       1  1752  1752 17:46 77741 00:00:00  9600 /usr/lib/colord/colord
+colord       1  1752  1766 17:46 77741 00:00:00  9600 /usr/lib/colord/colord
+colord       1  1752  1767 17:46 77741 00:00:00  9600 /usr/lib/colord/colord
+ankush       1  1802  1802 17:46 80693 00:00:00 11232 /usr/bin/gnome-keyring-daemon --daemonize --login
+ankush       1  1802  1803 17:46 80693 00:00:00 11232 /usr/bin/gnome-keyring-daemon --daemonize --login
+ankush       1  1802  1924 17:46 80693 00:00:00 11232 /usr/bin/gnome-keyring-daemon --daemonize --login
+ankush       1  1802  1935 17:46 80693 00:00:00 11232 /usr/bin/gnome-keyring-daemon --daemonize --login
+ankush       1  1802  1936 17:46 80693 00:00:00 11232 /usr/bin/gnome-keyring-daemon --daemonize --login
+ankush       1  1802  2111 17:46 80693 00:00:00 11232 /usr/bin/gnome-keyring-daemon --daemonize --login
+ankush    1374  1805  1805 17:46 10052 00:00:00  4260 init --user
+ankush    1805  1894  1894 17:46 10058 00:00:01  3560 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-IRLJyG3i4Y
+ankush    1805  1905  1905 17:46  5579 00:00:00  2368 upstart-event-bridge
+ankush    1805  1918  1918 17:46 19553 00:00:00  7916 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+ankush    1805  1925  1925 17:46 94286 00:00:02  9128 /usr/bin/ibus-daemon --daemonize --xim
+ankush    1805  1925  2018 17:46 94286 00:00:04  9128 /usr/bin/ibus-daemon --daemonize --xim
+ankush    1805  1925  2019 17:46 94286 00:00:00  9128 /usr/bin/ibus-daemon --daemonize --xim
+ankush    1805  1938  1938 17:46  5581 00:00:00   200 upstart-dbus-bridge --daemon --system --user --bus-name system
+ankush    1805  1940  1940 17:46  7699 00:00:00   280 upstart-file-bridge --daemon --user
+ankush    1805  1948  1948 17:46  5581 00:00:00   224 upstart-dbus-bridge --daemon --session --user --bus-name session
+ankush    1805  1956  1956 17:46 206109 00:00:00 31304 /usr/lib/unity-settings-daemon/unity-settings-daemon
+ankush    1805  1956  1976 17:46 206109 00:00:00 31304 /usr/lib/unity-settings-daemon/unity-settings-daemon
+ankush    1805  1956  1977 17:46 206109 00:00:00 31304 /usr/lib/unity-settings-daemon/unity-settings-daemon
+ankush    1805  1956  2001 17:46 206109 00:00:00 31304 /usr/lib/unity-settings-daemon/unity-settings-daemon
+ankush    1805  1960  1960 17:46 159583 00:00:02 41448 /usr/lib/x86_64-linux-gnu/hud/hud-service
+ankush    1805  1960  2127 17:46 159583 00:00:00 41448 /usr/lib/x86_64-linux-gnu/hud/hud-service
+ankush    1805  1960  2134 17:46 159583 00:00:00 41448 /usr/lib/x86_64-linux-gnu/hud/hud-service
+ankush    1805  1960  2141 17:46 159583 00:00:00 41448 /usr/lib/x86_64-linux-gnu/hud/hud-service
+ankush    1805  1962  1962 17:46 91926 00:00:00  9556 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+ankush    1805  1962  1966 17:46 91926 00:00:00  9556 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+ankush    1805  1962  1968 17:46 91926 00:00:00  9556 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+ankush    1805  1962  1971 17:46 91926 00:00:00  9556 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+ankush    1805  1963  1963 17:46 146329 00:00:00 20172 gnome-session --session=ubuntu
+ankush    1805  1963  1980 17:46 146329 00:00:00 20172 gnome-session --session=ubuntu
+ankush    1805  1963  1982 17:46 146329 00:00:00 20172 gnome-session --session=ubuntu
+ankush    1805  1963  2015 17:46 146329 00:00:00 20172 gnome-session --session=ubuntu
+ankush    1805  1965  1965 17:46 126968 00:00:04 32712 /usr/lib/unity/unity-panel-service
+ankush    1805  1965  1979 17:46 126968 00:00:00 32712 /usr/lib/unity/unity-panel-service
+ankush    1805  1965  1981 17:46 126968 00:00:01 32712 /usr/lib/unity/unity-panel-service
+ankush    1962  1969  1969 17:46  9852 00:00:00  3548 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+ankush    1805  1974  1974 17:46 31232 00:00:01  4944 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+ankush    1805  1974  1975 17:46 31232 00:00:00  4944 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+ankush    1805  1985  1985 17:46 49165 00:00:00  5564 /usr/lib/gvfs/gvfsd
+ankush    1805  1985  1986 17:46 49165 00:00:00  5564 /usr/lib/gvfs/gvfsd
+ankush    1805  1989  1989 17:46 90111 00:00:00  9260 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ankush    1805  1989  1993 17:46 90111 00:00:00  9260 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ankush    1805  1989  1994 17:46 90111 00:00:00  9260 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ankush    1805  1989  1995 17:46 90111 00:00:00  9260 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ankush    1805  1989  1996 17:46 90111 00:00:00  9260 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ankush    1805  2004  2004 17:46 139810 00:00:01 21236 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+ankush    1805  2004  2006 17:46 139810 00:00:00 21236 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+ankush    1805  2004  2007 17:46 139810 00:00:00 21236 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+ankush    1805  2004  2010 17:46 139810 00:00:00 21236 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+ankush    1805  2012  2012 17:46 44580 00:00:00  4784 /usr/lib/dconf/dconf-service
+ankush    1805  2012  2013 17:46 44580 00:00:00  4784 /usr/lib/dconf/dconf-service
+ankush    1805  2012  2014 17:46 44580 00:00:00  4784 /usr/lib/dconf/dconf-service
+ankush    1956  2016  2016 17:46  5581 00:00:00  2608 syndaemon -i 1.0 -t -K -R
+ankush    1925  2021  2021 17:46 73948 00:00:00  9712 /usr/lib/ibus/ibus-dconf
+ankush    1925  2021  2027 17:46 73948 00:00:00  9712 /usr/lib/ibus/ibus-dconf
+ankush    1925  2021  2028 17:46 73948 00:00:00  9712 /usr/lib/ibus/ibus-dconf
+ankush    1925  2021  2035 17:46 73948 00:00:00  9712 /usr/lib/ibus/ibus-dconf
+ankush    1925  2022  2022 17:46 122388 00:00:00 26104 /usr/lib/ibus/ibus-ui-gtk3
+ankush    1925  2022  2032 17:46 122388 00:00:00 26104 /usr/lib/ibus/ibus-ui-gtk3
+ankush    1925  2022  2033 17:46 122388 00:00:01 26104 /usr/lib/ibus/ibus-ui-gtk3
+ankush    1925  2022  2034 17:46 122388 00:00:00 26104 /usr/lib/ibus/ibus-ui-gtk3
+ankush    1805  2026  2026 17:46 93451 00:00:00 10104 /usr/bin/pulseaudio --start --log-target=syslog
+ankush    1805  2026  2042 17:46 93451 00:00:00 10104 /usr/bin/pulseaudio --start --log-target=syslog
+ankush    1805  2026  2043 17:46 93451 00:00:00 10104 /usr/bin/pulseaudio --start --log-target=syslog
+ankush    1805  2030  2030 17:46 99119 00:00:00 17440 /usr/lib/ibus/ibus-x11 --kill-daemon
+ankush    1805  2030  2135 17:46 99119 00:00:00 17440 /usr/lib/ibus/ibus-x11 --kill-daemon
+ankush    1805  2030  2136 17:46 99119 00:00:00 17440 /usr/lib/ibus/ibus-x11 --kill-daemon
+ankush    1805  2030  2137 17:46 99119 00:00:00 17440 /usr/lib/ibus/ibus-x11 --kill-daemon
+ankush    1925  2038  2038 17:46 54983 00:00:00  7740 /usr/lib/ibus/ibus-engine-simple
+ankush    1925  2038  2039 17:46 54983 00:00:01  7740 /usr/lib/ibus/ibus-engine-simple
+ankush    1925  2038  2040 17:46 54983 00:00:00  7740 /usr/lib/ibus/ibus-engine-simple
+ankush    1805  2053  2053 17:46 147044 00:00:00 22660 /usr/lib/x86_64-linux-gnu/indicator-keyboard-service --use-gtk
+ankush    1805  2053  2054 17:46 147044 00:00:00 22660 /usr/lib/x86_64-linux-gnu/indicator-keyboard-service --use-gtk
+ankush    1805  2053  2055 17:46 147044 00:00:00 22660 /usr/lib/x86_64-linux-gnu/indicator-keyboard-service --use-gtk
+ankush    1805  2057  2057 17:46 91300 00:00:00  7336 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+ankush    1805  2057  2065 17:46 91300 00:00:00  7336 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+ankush    1805  2057  2070 17:46 91300 00:00:00  7336 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+ankush    1805  2057  2071 17:46 91300 00:00:00  7336 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+ankush    1805  2058  2058 17:46 73439 00:00:00  7536 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+ankush    1805  2058  2066 17:46 73439 00:00:00  7536 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+ankush    1805  2058  2073 17:46 73439 00:00:00  7536 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+ankush    1805  2060  2060 17:46 73931 00:00:00  9916 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+ankush    1805  2060  2063 17:46 73931 00:00:00  9916 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+ankush    1805  2060  2068 17:46 73931 00:00:00  9916 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+ankush    1805  2061  2061 17:46 291163 00:00:00 15080 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+ankush    1805  2061  2101 17:46 291163 00:00:00 15080 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+ankush    1805  2061  2103 17:46 291163 00:00:00 15080 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+ankush    1805  2061  2104 17:46 291163 00:00:00 15080 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+ankush    1805  2061  2109 17:46 291163 00:00:00 15080 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+ankush    1805  2061  2148 17:46 291163 00:00:00 15080 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+ankush    1805  2064  2064 17:46 123904 00:00:00 10960 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+ankush    1805  2064  2072 17:46 123904 00:00:00 10960 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+ankush    1805  2064  2075 17:46 123904 00:00:00 10960 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+ankush    1805  2064  2076 17:46 123904 00:00:00 10960 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+ankush    1805  2067  2067 17:46 114038 00:00:00 21200 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+ankush    1805  2067  2095 17:46 114038 00:00:00 21200 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+ankush    1805  2067  2098 17:46 114038 00:00:00 21200 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+ankush    1805  2077  2077 17:46 226604 00:00:00 10220 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+ankush    1805  2077  2081 17:46 226604 00:00:00 10220 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+ankush    1805  2077  2091 17:46 226604 00:00:00 10220 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+ankush    1805  2080  2080 17:46 71702 00:00:00  8736 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+ankush    1805  2080  2094 17:46 71702 00:00:00  8736 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+ankush    1805  2108  2108 17:46 211241 00:00:00 20340 /usr/lib/evolution/evolution-source-registry
+ankush    1805  2108  2132 17:46 211241 00:00:00 20340 /usr/lib/evolution/evolution-source-registry
+ankush    1805  2108  2140 17:46 211241 00:00:00 20340 /usr/lib/evolution/evolution-source-registry
+ankush    1805  2114  2114 17:46 108150 00:00:00 28912 /usr/lib/x86_64-linux-gnu/notify-osd
+ankush    1805  2114  2116 17:46 108150 00:00:00 28912 /usr/lib/x86_64-linux-gnu/notify-osd
+ankush    1805  2114  2117 17:46 108150 00:00:00 28912 /usr/lib/x86_64-linux-gnu/notify-osd
+ankush    1963  2138  2138 17:46 368874 00:01:16 201024 compiz
+ankush    1963  2138  2139 17:46 368874 00:00:00 201024 compiz
+ankush    1963  2138  2145 17:46 368874 00:00:00 201024 compiz
+ankush    1963  2138  2146 17:46 368874 00:00:00 201024 compiz
+ankush    1805  2150  2150 17:46 274279 00:00:00 52584 /usr/lib/evolution/evolution-calendar-factory
+ankush    1805  2150  2199 17:46 274279 00:00:00 52584 /usr/lib/evolution/evolution-calendar-factory
+ankush    1805  2150  2214 17:46 274279 00:00:00 52584 /usr/lib/evolution/evolution-calendar-factory
+ankush    1805  2150  2215 17:46 274279 00:00:00 52584 /usr/lib/evolution/evolution-calendar-factory
+ankush    1805  2150  2216 17:46 274279 00:00:00 52584 /usr/lib/evolution/evolution-calendar-factory
+ankush    1963  2152  2152 17:46 121143 00:00:00 18048 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+ankush    1963  2152  2159 17:46 121143 00:00:00 18048 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+ankush    1963  2152  2160 17:46 121143 00:00:00 18048 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+ankush    1963  2154  2154 17:46 150793 00:00:00 33312 nm-applet
+ankush    1963  2154  2161 17:46 150793 00:00:00 33312 nm-applet
+ankush    1963  2154  2162 17:46 150793 00:00:00 33312 nm-applet
+ankush    1963  2164  2164 17:46 350871 00:00:06 59504 nautilus -n
+ankush    1963  2164  2191 17:46 350871 00:00:00 59504 nautilus -n
+ankush    1963  2164  2192 17:46 350871 00:00:00 59504 nautilus -n
+ankush    1963  2164  2224 17:46 350871 00:00:00 59504 nautilus -n
+ankush    1805  2169  2169 17:46 14532 00:00:00  6016 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+ankush    1963  2170  2170 17:46 85350 00:00:00 18168 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+ankush    1963  2170  2183 17:46 85350 00:00:00 18168 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+ankush    1963  2170  2185 17:46 85350 00:00:00 18168 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+ankush    1805  2178  2178 17:46 77862 00:00:00 11604 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+ankush    1805  2178  2188 17:46 77862 00:00:00 11604 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+ankush    1805  2178  2201 17:46 77862 00:00:00 11604 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root         1  2190  2190 17:46 112949 00:00:00 11400 /usr/lib/udisks2/udisksd --no-debug
+root         1  2190  2193 17:46 112949 00:00:00 11400 /usr/lib/udisks2/udisksd --no-debug
+root         1  2190  2195 17:46 112949 00:00:00 11400 /usr/lib/udisks2/udisksd --no-debug
+root         1  2190  2196 17:46 112949 00:00:00 11400 /usr/lib/udisks2/udisksd --no-debug
+root         1  2190  2198 17:46 112949 00:00:00 11400 /usr/lib/udisks2/udisksd --no-debug
+ankush    1805  2204  2204 17:46 71495 00:00:00  6236 /usr/lib/gvfs/gvfs-afc-volume-monitor
+ankush    1805  2204  2205 17:46 71495 00:00:00  6236 /usr/lib/gvfs/gvfs-afc-volume-monitor
+ankush    1805  2204  2207 17:46 71495 00:00:00  6236 /usr/lib/gvfs/gvfs-afc-volume-monitor
+ankush    1805  2209  2209 17:46 50073 00:00:00  5352 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+ankush    1805  2209  2211 17:46 50073 00:00:00  5352 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+ankush    1805  2213  2213 17:46 53114 00:00:00  5836 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ankush    1805  2213  2223 17:46 53114 00:00:00  5836 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+root         1  2233  2233 17:46 19219 00:00:00  6048 /usr/sbin/cupsd -f
+ankush    1805  2241  2241 17:46 93581 00:00:00  7788 /usr/lib/gvfs/gvfsd-trash --spawner :1.9 /org/gtk/gvfs/exec_spaw/0
+ankush    1805  2241  2242 17:46 93581 00:00:00  7788 /usr/lib/gvfs/gvfsd-trash --spawner :1.9 /org/gtk/gvfs/exec_spaw/0
+ankush    1805  2241  2243 17:46 93581 00:00:00  7788 /usr/lib/gvfs/gvfsd-trash --spawner :1.9 /org/gtk/gvfs/exec_spaw/0
+ankush    1805  2273  2273 17:46 67599 00:00:00  6908 /usr/lib/gvfs/gvfsd-burn --spawner :1.9 /org/gtk/gvfs/exec_spaw/1
+ankush    1805  2273  2274 17:46 67599 00:00:00  6908 /usr/lib/gvfs/gvfsd-burn --spawner :1.9 /org/gtk/gvfs/exec_spaw/1
+ankush    1805  2291  2291 17:47 31208 00:00:00  5824 /usr/lib/gvfs/gvfsd-metadata
+ankush    1805  2291  2292 17:47 31208 00:00:00  5824 /usr/lib/gvfs/gvfsd-metadata
+ankush    1805  2302  2302 17:47 621588 00:01:07 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2308 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2309 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2310 17:47 621588 00:00:12 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2311 17:47 621588 00:00:02 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2312 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2313 17:47 621588 00:00:08 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2314 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2315 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2316 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2317 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2318 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2319 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2320 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2321 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2322 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2338 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2341 17:47 621588 00:00:01 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2348 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2350 17:47 621588 00:00:06 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2351 17:47 621588 00:00:29 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2352 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2353 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2354 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2355 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2356 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2359 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2360 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2361 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2362 17:47 621588 00:00:01 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2364 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2365 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2366 17:47 621588 00:00:04 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2367 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2368 17:47 621588 00:00:04 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2369 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2370 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2380 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2381 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2385 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2414 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2415 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2417 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2439 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2443 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2445 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2448 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2449 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2452 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2505 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2507 17:47 621588 00:00:01 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2508 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2537 17:47 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2597 17:48 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  2765 18:29 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  3216 19:40 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1805  2302  3232 19:45 621588 00:00:00 424964 /usr/lib/firefox/firefox
+ankush    1963  2323  2323 17:47 114346 00:00:00 19388 telepathy-indicator
+ankush    1963  2323  2326 17:47 114346 00:00:00 19388 telepathy-indicator
+ankush    1963  2323  2327 17:47 114346 00:00:00 19388 telepathy-indicator
+ankush    1805  2331  2331 17:47 84191 00:00:00 13496 /usr/lib/telepathy/mission-control-5
+ankush    1805  2331  2333 17:47 84191 00:00:00 13496 /usr/lib/telepathy/mission-control-5
+ankush    1805  2331  2335 17:47 84191 00:00:00 13496 /usr/lib/telepathy/mission-control-5
+ankush    1963  2372  2372 17:47 140373 00:00:00 15416 zeitgeist-datahub
+ankush    1963  2372  2375 17:47 140373 00:00:00 15416 zeitgeist-datahub
+ankush    1963  2372  2376 17:47 140373 00:00:00 15416 zeitgeist-datahub
+ankush    1963  2372  2428 17:47 140373 00:00:00 15416 zeitgeist-datahub
+ankush    1963  2372  2429 17:47 140373 00:00:00 15416 zeitgeist-datahub
+ankush    1963  2372  2430 17:47 140373 00:00:00 15416 zeitgeist-datahub
+ankush    1963  2372  2438 17:47 140373 00:00:00 15416 zeitgeist-datahub
+ankush    1805  2378  2378 17:47 90913 00:00:00  8780 /usr/bin/zeitgeist-daemon
+ankush    1805  2378  2379 17:47 90913 00:00:00  8780 /usr/bin/zeitgeist-daemon
+ankush    1805  2422  2422 17:47 64106 00:00:00 15192 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+ankush    1805  2422  2440 17:47 64106 00:00:00 15192 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+ankush    1805  2422  2622 17:49 64106 00:00:00 15192 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+ankush    2422  2441  2441 17:47  2857 00:00:00   668 /bin/cat
+ankush    2302  2506  2506 17:47 635189 00:14:26 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2510 17:47 635189 00:00:13 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2511 17:47 635189 00:00:00 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2512 17:47 635189 00:00:00 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2513 17:47 635189 00:00:00 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2514 17:47 635189 00:00:10 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2515 17:47 635189 00:00:11 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2516 17:47 635189 00:00:10 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2517 17:47 635189 00:00:11 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2518 17:47 635189 00:00:10 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2519 17:47 635189 00:00:11 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2520 17:47 635189 00:00:10 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2521 17:47 635189 00:00:11 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2522 17:47 635189 00:00:00 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2523 17:47 635189 00:00:00 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2524 17:47 635189 00:00:41 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2525 17:47 635189 00:00:00 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2526 17:47 635189 00:00:00 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2527 17:47 635189 00:00:00 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2528 17:47 635189 00:00:00 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2529 17:47 635189 00:00:00 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2530 17:47 635189 00:00:00 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2531 17:47 635189 00:00:00 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2532 17:47 635189 00:00:00 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2533 17:47 635189 00:00:00 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2549 17:47 635189 00:00:00 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    2302  2506  2596 17:48 635189 00:00:00 824344 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -intPrefs 5:50|6:-1|18:0|28:1000|33:20|34:10|43:128|44:10000|49:0|51:400|52:1|53:0|54:0|59:0|60:120|61:120|92:2|93:1|107:5000|118:0|120:0|131:10000|156:24|157:32768|159:0|160:0|168:0|172:1048576|173:100|174:5000|176:600|177:4|178:1|187:2|201:60000| -boolPrefs 1:0|2:0|4:0|26:1|27:1|30:0|35:1|36:0|37:0|38:0|41:1|42:1|45:0|46:0|47:0|48:0|50:0|55:1|56:1|57:0|58:1|62:1|63:1|64:0|65:1|66:1|67:0|68:1|71:0|72:0|75:1|76:1|80:1|81:1|82:1|83:0|84:0|86:0|87:0|88:1|89:0|94:1|95:0|101:0|106:0|109:1|110:0|112:1|113:1|115:1|119:0|121:0|123:0|125:1|126:1|132:0|133:0|134:1|136:0|147:0|154:0|155:0|158:1|161:0|163:1|165:1|166:0|171:0|175:1|180:0|181:0|182:0|183:1|184:0|185:0|186:1|189:1|193:0|194:0|195:1|196:1|197:0|198:1|199:1|200:1|202:0|203:0|205:0|213:1|214:1|215:0|216:0|217:0| -stringPrefs 3:7;release|135:3;1.0|152:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟ?᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|153:8;moderate| -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2302 true tab
+ankush    1963  2572  2572 17:47 127163 00:00:00 25644 update-notifier
+ankush    1963  2572  2575 17:47 127163 00:00:00 25644 update-notifier
+ankush    1963  2572  2576 17:47 127163 00:00:00 25644 update-notifier
+ankush    1963  2572  2577 17:47 127163 00:00:00 25644 update-notifier
+ankush    1963  2609  2609 17:48 114757 00:00:00 7660 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+ankush    1963  2609  2612 17:48 114757 00:00:00 7660 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+ankush    1963  2609  2613 17:48 114757 00:00:00 7660 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+ankush    1805  2624  2624 17:49 351562 00:00:01 134136 evince /home/ankush/Downloads/cs251_git(1).pdf
+ankush    1805  2624  2626 17:49 351562 00:00:00 134136 evince /home/ankush/Downloads/cs251_git(1).pdf
+ankush    1805  2624  2627 17:49 351562 00:00:00 134136 evince /home/ankush/Downloads/cs251_git(1).pdf
+ankush    1805  2624  2629 17:49 351562 00:00:00 134136 evince /home/ankush/Downloads/cs251_git(1).pdf
+ankush    1805  2624  2643 17:49 351562 00:00:00 134136 evince /home/ankush/Downloads/cs251_git(1).pdf
+ankush    1805  2631  2631 17:49 26113 00:00:00  4184 /usr/lib/evince/evinced
+ankush    1805  2631  2633 17:49 26113 00:00:00  4184 /usr/lib/evince/evinced
+ankush    1805  2771  2771 18:29 350923 00:00:25 155908 evince /home/ankush/Downloads/redeem-assignment(1).pdf
+ankush    1805  2771  2773 18:29 350923 00:00:00 155908 evince /home/ankush/Downloads/redeem-assignment(1).pdf
+ankush    1805  2771  2774 18:29 350923 00:00:00 155908 evince /home/ankush/Downloads/redeem-assignment(1).pdf
+ankush    1805  2771  2776 18:29 350923 00:00:00 155908 evince /home/ankush/Downloads/redeem-assignment(1).pdf
+ankush    1805  2771  2786 18:29 350923 00:00:00 155908 evince /home/ankush/Downloads/redeem-assignment(1).pdf
+ankush    1805  2790  2790 18:29 164891 00:00:04 31472 gnome-terminal
+ankush    1805  2790  2793 18:29 164891 00:00:00 31472 gnome-terminal
+ankush    1805  2790  2794 18:29 164891 00:00:00 31472 gnome-terminal
+ankush    1805  2790  2796 18:29 164891 00:00:00 31472 gnome-terminal
+ankush    2790  2799  2799 18:29  3709 00:00:00  1916 gnome-pty-helper
+ankush    2790  2800  2800 18:29  7262 00:00:00  7692 bash
+root         2  2952  2952 19:07     0 00:00:00     0 [kworker/u8:2]
+ankush    1805  3056  3056 19:22 183767 00:00:12 48952 gedit /home/ankush/cs251/assn2/qn1.awk
+ankush    1805  3056  3059 19:22 183767 00:00:00 48952 gedit /home/ankush/cs251/assn2/qn1.awk
+ankush    1805  3056  3060 19:22 183767 00:00:00 48952 gedit /home/ankush/cs251/assn2/qn1.awk
+ankush    1805  3056  3062 19:22 183767 00:00:00 48952 gedit /home/ankush/cs251/assn2/qn1.awk
+ankush    1805  3056  3063 19:22 183767 00:00:00 48952 gedit /home/ankush/cs251/assn2/qn1.awk
+ankush    1805  3056  3064 19:22 183767 00:00:00 48952 gedit /home/ankush/cs251/assn2/qn1.awk
+ankush    1805  3056  3065 19:22 183767 00:00:00 48952 gedit /home/ankush/cs251/assn2/qn1.awk
+ankush    1805  3056  3066 19:22 183767 00:00:00 48952 gedit /home/ankush/cs251/assn2/qn1.awk
+ankush    1805  3056  3272 19:53 183767 00:00:00 48952 gedit /home/ankush/cs251/assn2/qn1.awk
+root         2  3110  3110 19:25     0 00:00:00     0 [kworker/u8:0]
+root         2  3114  3114 19:26     0 00:00:00     0 [kworker/2:2]
+root         2  3189  3189 19:31     0 00:00:00     0 [kworker/0:2]
+root         2  3190  3190 19:34     0 00:00:00     0 [kworker/3:2]
+root         2  3191  3191 19:35     0 00:00:00     0 [kworker/1:1]
+root         2  3224  3224 19:41     0 00:00:00     0 [kworker/0:1]
+root         2  3230  3230 19:44     0 00:00:00     0 [kworker/3:1]
+root         2  3234  3234 19:45     0 00:00:00     0 [kworker/1:2]
+root         2  3235  3235 19:45     0 00:00:00     0 [kworker/2:0]
+root         2  3253  3253 19:49     0 00:00:00     0 [kworker/3:0]
+root         2  3265  3265 19:51     0 00:00:00     0 [kworker/1:0]
+root         2  3266  3266 19:51     0 00:00:00     0 [kworker/2:1]
+root         2  3271  3271 19:52     0 00:00:00     0 [kworker/u8:1]
+ankush    2800  3277  3277 19:53  5664 00:00:00  2600 ps -eLo uname,ppid,pid,lwp,start_time,sz,time,rss,cmd
